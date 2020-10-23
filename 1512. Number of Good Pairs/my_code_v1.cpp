@@ -10,11 +10,11 @@ public:
                 ++count;
             }else{
                 re += count >= 2 ? count*(count-1)/2 : 0;
-                // re += count*(count-1)/2;
                 count = 1;
                 key = i;
             }
         }
+        //需要对最后一部分相同的整数单独求解一次
         re += count >= 2 ? count*(count-1)/2 : 0;
         return re;
     }
