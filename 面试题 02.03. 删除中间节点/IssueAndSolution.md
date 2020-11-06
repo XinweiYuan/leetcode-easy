@@ -12,6 +12,6 @@
 由于不能访问前一个节点，故此题可以复制下一个节点的信息到当前节点，然后删去下一个节点。
 ## 关键代码
 node->val = node->next->val;  
-auto tmp = node->next;
-node->next = node->next->next;
-delete tmp;
+auto tmp = node->next;  
+node->next = node->next->next;  
+delete tmp;  
