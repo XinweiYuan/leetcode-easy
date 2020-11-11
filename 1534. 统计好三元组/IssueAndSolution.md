@@ -15,7 +15,7 @@
 输出：4  
 解释：一共有 4 个好三元组：[(3,0,1), (3,0,1), (3,1,1), (0,1,1)] 。  
 
-*来源：力扣（LeetCode）*
+*来源：力扣（LeetCode）*  
 *链接：https://leetcode-cn.com/problems/count-good-triplets*
 
 # 题解
