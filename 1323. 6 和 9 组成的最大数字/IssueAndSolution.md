@@ -21,3 +21,5 @@
 1. 使用 to_string() 方法将 num 变成 string，并计算 string 的长度 n
 2. 依次遍历 string，将碰到的第一个 6 变成 9，并且 result 自加 (c-'0')*10^(n-1)
 3. 返回最后的 result
+
+注：遍历时可以用引用的形式来遍历，最后使用 stoi() 方法将 string 整体变成 int。以此来提高速度。
