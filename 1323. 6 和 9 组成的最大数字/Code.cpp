@@ -2,17 +2,12 @@ class Solution {
 public:
     int maximum69Number (int num) {
         string numStr = to_string(num);
-        int rlt(0);
-        int n = numStr.size();
-        bool flag = true;
         for (auto &i : numStr) {
-            if (i == '6' && flag){
+            if (i == '6'){
                 i = '9';
-                flag = false;;
+                break;
             }
-            rlt += (i-'0')*pow(10, n-1);
-            --n;
         }
-       return rlt;
+       return stoi(numStr);
     }
 };
